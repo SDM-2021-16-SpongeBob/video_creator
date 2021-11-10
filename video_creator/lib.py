@@ -26,3 +26,6 @@ class InputVideo:
 
     def get_height(self):
         return self._height
+
+    def read(self):
+        return self._video.read()
