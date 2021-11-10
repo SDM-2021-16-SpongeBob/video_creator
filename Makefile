@@ -6,7 +6,8 @@ SETUP      = setup.py
 .PHONY: $(DOCS_DIR)
 
 init:
-	pip install -r requirements.txt
+	python -m pip install --upgrade pip
+	if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
 run:
 	$(PY_CMD) -m $(PROJ_NAME)
