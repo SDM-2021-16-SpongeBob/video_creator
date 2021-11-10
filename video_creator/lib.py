@@ -4,13 +4,16 @@ import numpy as np
 
 class InputVideo:
 
-    video = None
-    fps = 0
-    width = 0
-    height = 0
+    _video = None
+    _fps = 0
+    _width = 0
+    _height = 0
 
     def __init__(self, video: str) -> None:
-        self.video = cv2.VideoCapture(video)
-        self.fps = self.video.get(cv2.CAP_PROP_FPS)
-        self.width = int(self.video.get(cv2.CAP_PROP_FRAME_WIDTH))
-        self.height = int(self.video.get(cv2.CAP_PROP_FRAME_HEIGHT))
+        self._video = cv2.VideoCapture(video)
+        self._fps = self._video.get(cv2.CAP_PROP_FPS)
+        self._width = int(self._video.get(cv2.CAP_PROP_FRAME_WIDTH))
+        self._height = int(self._video.get(cv2.CAP_PROP_FRAME_HEIGHT))
+
+    def get_video(self):
+        return self._video
