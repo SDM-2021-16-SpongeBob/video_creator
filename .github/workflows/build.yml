@@ -16,5 +16,11 @@ jobs:
           python-version: 3.9
       - name: Install dependencies
         run: make init
-      - name: Build & Run
+      - name: Build Project
+        run: make build
+      - name: Run Project
         run: make run
+      - uses: actions/upload-artifact@v2
+        with:
+          name: dist
+          path: dist/video_creator-*.tar.gz
