@@ -20,3 +20,6 @@ class InputVideo:
 
     def get_fps(self):
         return self._fps
+
+    def get_width(self):
+        return self._width
