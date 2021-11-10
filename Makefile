@@ -1,5 +1,6 @@
 PROJ_NAME  = video_creator
 PY_CMD     = python
+LINT_CMD   = pylint
 DOCS_DIR   = docs
 SETUP      = setup.py
 PKG_LIST   = requirements.txt
@@ -16,6 +17,9 @@ run:
 
 build:
 	$(PY_CMD) $(SETUP) sdist
+
+lint:
+	$(PY_CMD) -m $(LINT_CMD) $(PROJ_NAME)
 
 clean-pyc:
 	@find . -name '*.pyc' -delete
