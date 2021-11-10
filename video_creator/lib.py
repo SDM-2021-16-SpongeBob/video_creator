@@ -17,3 +17,6 @@ class InputVideo:
 
     def get_video(self):
         return self._video
+
+    def get_fps(self):
+        return self._fps
