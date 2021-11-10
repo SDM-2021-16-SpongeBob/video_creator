@@ -23,3 +23,6 @@ class InputVideo:
 
     def get_width(self):
         return self._width
+
+    def get_height(self):
+        return self._height
