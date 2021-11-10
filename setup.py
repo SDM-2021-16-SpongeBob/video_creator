@@ -16,5 +16,11 @@ setup(
 
     tests_require=[],
 
-    classifiers=[],
+    classifiers=[
+        'Development Status :: 3 - Alpha',
+        'Intended Audience :: End Users/Desktop',
+        'Topic :: Software Development',
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python :: 3.9',
+    ],
 )
