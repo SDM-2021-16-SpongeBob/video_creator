@@ -18,6 +18,12 @@ setup(
 
     tests_require=[],
 
+    extras_require={
+        "lint": [
+            "pylint>=2.11.1"
+        ]
+    },
+
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: End Users/Desktop',
