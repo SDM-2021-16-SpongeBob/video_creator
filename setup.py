@@ -12,7 +12,10 @@ setup(
     url="https://github.com/SDM-2021-16-SpongeBob/video_creator",
     packages=find_packages(),
 
-    install_requires=[],
+    install_requires=[
+        "opencv-python>=4.5.4.58",
+        "numpy>=1.21.4"
+    ],
 
     tests_require=[],
 
