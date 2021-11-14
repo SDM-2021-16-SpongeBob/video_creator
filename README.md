@@ -4,6 +4,22 @@
 
 Use Python to multiple videos in one and simple syncronization.
 
+## Install
+
+For Linux or MacOS:
+
+```shell
+make init
+```
+
+For Windows:
+
+```shell
+pip install -r requirements.txt
+pip install -e .
+```
+
+
 <!-- badge -->
 
 [ci_icon]: https://github.com/SDM-2021-16-SpongeBob/video_creator/actions/workflows/build.yml/badge.svg
