@@ -67,6 +67,10 @@ optional arguments:
 
 See [Functional Specification.md][functional_specification].
 
+## Requirement Specification
+
+See [Requirement Specification.md][requirement_specification].
+
 
 <!-- badge -->
 
@@ -79,3 +83,4 @@ See [Functional Specification.md][functional_specification].
 [opencv-python]: https://pypi.org/project/opencv-python
 [pylint]: https://pypi.org/project/pylint
 [functional_specification]: https://github.com/SDM-2021-16-SpongeBob/video_creator/blob/main/docs/Functional%20Specification.md
+[requirement_specification]: https://github.com/SDM-2021-16-SpongeBob/video_creator/blob/main/docs/Requirement%20Specification.md
