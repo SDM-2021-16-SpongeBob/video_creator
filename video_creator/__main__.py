@@ -2,8 +2,10 @@
 Inlet of the program
 """
 
+
 import argparse
 from video_creator.lib import InputVideo, OutputVideo
+
 
 
 def main():
