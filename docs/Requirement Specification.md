@@ -24,6 +24,7 @@ Video cropping, and the combination of videos
 ## System rules, patterns, recommendations.
 
 ## Current business flow model.
+Now it is mainly free to attract users, and then advertising, and VIP free advertising services
 
 ## Required business flow
 
