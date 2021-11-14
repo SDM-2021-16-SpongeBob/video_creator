@@ -31,3 +31,10 @@ At present, we have completed the basic function of the software, which can run 
 ## Reports
 
 ## Glossary
+
+- Python: Python is an interpreted high-level general-purpose programming language.
+- OpenCV: OpenCV (Open Source Computer Vision Library) is a library of programming functions mainly aimed at real-time computer vision.
+- NumPy: NumPy is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
+- Adobe Premiere Pro: Adobe Premiere Pro is a timeline-based video editing software application developed by Adobe Inc.
+- Final Cut Pro: Final Cut Pro is a series of non-linear video editing software programs first developed by Macromedia Inc. and later Apple Inc.
+- DaVinci Resolve: DaVinci Resolve is a color grading and non-linear video editing (NLE) application for macOS, Windows, and Linux, originally developed by da Vinci Systems, and now developed by Blackmagic Design following its acquisition in 2009.
