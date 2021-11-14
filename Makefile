@@ -13,7 +13,7 @@ init:
 	if [ -f $(SETUP) ]; then pip install -e .; fi
 
 run:
-	$(PY_CMD) -m $(PROJ_NAME)
+	$(PY_CMD) -m $(PROJ_NAME) -h
 
 build:
 	$(PY_CMD) $(SETUP) sdist

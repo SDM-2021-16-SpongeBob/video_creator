@@ -26,8 +26,8 @@ jobs:
       - name: Build Project
         run: make build
 
-      - name: Run Project
-        run: make run
+      # - name: Run Project
+      #   run: make run
 
       - uses: actions/upload-artifact@v2
         with:
