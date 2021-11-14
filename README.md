@@ -63,6 +63,18 @@ optional arguments:
                         Entered video files
 ```
 
+## Functional Specification
+
+See [Functional Specification.md][functional_specification].
+
+## Requirement Specification
+
+See [Requirement Specification.md][requirement_specification].
+
+## System Design
+
+See [System Design.md][system_design].
+
 
 <!-- badge -->
 
@@ -74,3 +86,6 @@ optional arguments:
 [numpy]: https://pypi.org/project/numpy
 [opencv-python]: https://pypi.org/project/opencv-python
 [pylint]: https://pypi.org/project/pylint
+[functional_specification]: https://github.com/SDM-2021-16-SpongeBob/video_creator/blob/main/docs/Functional%20Specification.md
+[requirement_specification]: https://github.com/SDM-2021-16-SpongeBob/video_creator/blob/main/docs/Requirement%20Specification.md
+[system_design]: https://github.com/SDM-2021-16-SpongeBob/video_creator/blob/main/docs/System%20Design.md
