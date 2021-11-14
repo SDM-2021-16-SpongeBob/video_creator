@@ -27,6 +27,7 @@ Video cropping, and the combination of videos
 Now it is mainly free to attract users, and then advertising, and VIP free advertising services
 
 ## Required business flow
+Invest in advertising and join VIP charging services
 
 ## List of requirements
 
