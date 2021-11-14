@@ -19,6 +19,21 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
+## Usage
+
+```txt
+usage: video_creator [-h] [--input INPUT INPUT] Output
+
+Multiple videos in one and simple syncronization.
+
+positional arguments:
+  Output               The result of the synthetic video
+
+optional arguments:
+  -h, --help           show this help message and exit
+  --input INPUT INPUT  Entered video files
+```
+
 
 <!-- badge -->
 
