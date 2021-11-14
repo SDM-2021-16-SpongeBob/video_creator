@@ -1,19 +1,21 @@
-# Overview
+# Requirement Specification
 
-# Current State
+## Overview
 
-# Dream system
+## Current State
 
-# Functional requirements
+## Dream system
 
-# System rules, patterns, recommendations.
+## Functional requirements
 
-# Current business flow model.
+## System rules, patterns, recommendations.
 
-# Required business flow
+## Current business flow model.
 
-# List of requirements
+## Required business flow
 
-# Reports
+## List of requirements
 
-# Glossary
+## Reports
+
+## Glossary
