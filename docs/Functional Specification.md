@@ -19,6 +19,7 @@ At present, we have completed the basic function of the software, which can run 
 ## List of requirements
 
 ## Current business flow model
+During the user's use, we will put advertisements in the software and open VIP free advertisement services
 
 ## Required business flow
 
