@@ -38,9 +38,6 @@ class OutputVideo(Video):
 
     _video_queue = []
 
-    def __init__(self, video: str) -> None:
-        self._video = video
-
     def input(self, video: Video):
         self._video_queue.append(video)
         self._width = self._width + video.get_width()
@@ -51,3 +48,32 @@ class OutputVideo(Video):
             new_fps = v.get_fps()
             self._height = new_height if new_height > old_height else old_height
             self._fps = new_fps if new_fps < old_fps else old_fps
+        return self
+
+    def gen_outputfile(self, video: str):
+        self._video = cv2.VideoWriter(video, cv2.VideoWriter_fourcc(
+            'm', 'p', '4', 'v'), self._fps, (self._width, self._height))
+        return self
+
+    def _get_frame(self):
+        success = True
+        frames = []
+        for video in self._video_queue:
+            inter_success, frame = video.read()
+            if inter_success:
+                success = False
+            frames.append(frame)
+        return (success, frames)
+
+    def handle(self):
+        success, frames = self._get_frame()
+        while success:
+            frame = np.hstack((frames[0], frames[1]))  # TODO
+            self._video.write(frame)
+            success, frames = self._get_frame()
+        return self
+
+    def close(self):
+        self._video.release()
+        for video in self._video_queue:
+            video.release()
