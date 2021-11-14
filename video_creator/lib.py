@@ -73,7 +73,4 @@ class OutputVideo(Video):
             success, frames = self._get_frame()
         return self
 
-    def close(self):
-        self._video.release()
-        for video in self._video_queue:
-            video.release()
+   
