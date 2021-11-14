@@ -1,17 +1,19 @@
-# Overview
+# Functional Specification
 
-# Current situation
+## Overview
 
-# List of requirements
+## Current situation
 
-# Current business flow model
+## List of requirements
 
-# Required business flow
+## Current business flow model
 
-# Use cases
+## Required business flow
 
-# Screen plans
+## Use cases
 
-# Script
+## Screen plans
 
-# Glossary
+## Script
+
+## Glossary
