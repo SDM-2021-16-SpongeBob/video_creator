@@ -21,9 +21,13 @@ pip install -e .
 
 ## Usage
 
-usage: `video_creator [-h] [-i INPUT INPUT] OUTPUT`
+Use the following command:
 
-Multiple videos in one and simple syncronization.
+```shell
+video_creator [-h] [-i INPUT INPUT] OUTPUT`
+```
+
+to multiple videos in one and simple syncronization.
 
 positional arguments:
 
