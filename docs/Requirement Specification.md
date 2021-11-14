@@ -12,6 +12,10 @@ In many modern operating systems, in order to complete the above tasks, there is
 
 ## Current State
 
+This software is very useful, it can take several different video to a video.
+
+At present, we have completed the basic function of the software, which can run in the command line.
+
 ## Dream system
 
 ## Functional requirements
