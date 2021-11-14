@@ -21,17 +21,34 @@ pip install -e .
 
 ## Usage
 
-```txt
-usage: video_creator [-h] [--input INPUT INPUT] Output
+usage: `video_creator [-h] [-i INPUT INPUT] OUTPUT`
 
 Multiple videos in one and simple syncronization.
 
 positional arguments:
-  Output               The result of the synthetic video
+
+- `OUTPUT`: The result of the synthetic video
 
 optional arguments:
-  -h, --help           show this help message and exit
-  --input INPUT INPUT  Entered video files
+
+  - `-h`, `--help`: Show this help message and exit
+  - `-i`, `--input`: Entered video files
+
+You can get more help message via `-h` or` --help` option:
+
+```txt
+$ video_creator --help
+usage: video_creator [-h] [-i INPUT INPUT] OUTPUT
+
+Multiple videos in one and simple syncronization.
+
+positional arguments:
+  OUTPUT                The result of the synthetic video
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i INPUT INPUT, --input INPUT INPUT
+                        Entered video files
 ```
 
 
