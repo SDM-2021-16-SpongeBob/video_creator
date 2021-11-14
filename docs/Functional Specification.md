@@ -24,6 +24,7 @@ During the user's use, we will put advertisements in the software and open VIP f
 ## Required business flow
 
 ## Use cases
+Video maker for simple video combination
 
 ## Screen plans
 
