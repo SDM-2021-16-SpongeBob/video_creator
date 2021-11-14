@@ -4,7 +4,7 @@
 
 This is a software based on Python-written processing video.
 
-The technology used to write software is: Python, OpenCV and NUMPY.
+The technology used to write software is: Python, OpenCV and NumPy.
 
 The purpose of the project is to provide a combined number of different videos and simply synchronize.
 
