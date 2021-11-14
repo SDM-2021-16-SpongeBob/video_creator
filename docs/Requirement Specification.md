@@ -19,6 +19,7 @@ At present, we have completed the basic function of the software, which can run 
 ## Dream system
 
 ## Functional requirements
+Video cropping, and the combination of videos
 
 ## System rules, patterns, recommendations.
 
