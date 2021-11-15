@@ -30,8 +30,14 @@ We will publish the package to [PyPi](https://pypi.org/) when it is ready.
 
 Then the user can download and install it by `pip`:
 
-```bash
+```shell
 pip install video_creator
+```
+
+Developers can get the source code via Clone our Git Repo:
+
+```shell
+git clone git@github.com:SDM-2021-16-SpongeBob/video_creator.git
 ```
 
 ## Maintenance plan
