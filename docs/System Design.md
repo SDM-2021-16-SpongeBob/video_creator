@@ -2,6 +2,10 @@
 
 ## Goal of the system
 
+The main goal of this program is to design a simple application for editing video (that is more than a few video to fit together and make simple synchronization).
+
+Our ultimate goal is to make a video editing software similar to Adobe Premiere Pro or Final Cut Pro.
+
 ## Project plan
 
 ## Business process model
