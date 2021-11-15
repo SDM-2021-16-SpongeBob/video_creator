@@ -26,4 +26,12 @@ We plan to use CI (continuous integration) to automatically run test at each Com
 
 ## Install plan
 
+We will publish the package to [PyPi](https://pypi.org/) when it is ready.
+
+Then the user can download and install it by `pip`:
+
+```bash
+pip install video_creator
+```
+
 ## Maintenance plan
