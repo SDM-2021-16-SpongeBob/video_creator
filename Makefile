@@ -1,9 +1,4 @@
-PROJ_NAME  = video_creator
-PY_CMD     = python
-LINT_CMD   = pylint
-DOCS_DIR   = docs
-SETUP      = setup.py
-PKG_LIST   = requirements.txt
+
 
 .PHONY: $(DOCS_DIR) clean clean-pyc clean-build
 
