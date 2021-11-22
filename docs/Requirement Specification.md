@@ -11,8 +11,7 @@ The purpose of the project is to provide a combined number of different videos a
 In many modern operating systems, in order to complete the above tasks, there is often a need for complex and huge software (for example: Adobe Premiere Pro, Final Cut Pro, Davinci Resolve, etc.), which there is still a lot of expensive software. Our software provides a foundation but free solution, mainly using Python and OpenCV, there is no other dependence.
 
 ## Functional requirements
-Video cropping, and the combination of videos
-
+A video creator has the ability to stich multiple video files. 
 ## Glossary
 
 - Python: Python is an interpreted high-level general-purpose programming language.
