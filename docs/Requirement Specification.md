@@ -18,6 +18,8 @@ A video creator has the ability to stitch multiple video files.
 - Videos Stitch: Stitch the videos users inputed in a pre-set form.
 - Edited Video Output: Output the editted video file. 
 
+## Screen Plan
+It's going to be a command-line style software.
 ## Glossary
 
 - Python: Python is an interpreted high-level general-purpose programming language.
