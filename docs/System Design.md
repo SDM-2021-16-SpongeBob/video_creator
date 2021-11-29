@@ -22,6 +22,22 @@ Our ultimate goal is to make a video editing software similar to Adobe Premiere 
 
 ## Testing plan
 
+We plan to use CI (continuous integration) to automatically run test at each Commit and merge.
+
 ## Install plan
+
+We will publish the package to [PyPi](https://pypi.org/) when it is ready.
+
+Then the user can download and install it by `pip`:
+
+```shell
+pip install video_creator
+```
+
+Developers can get the source code via Clone our Git Repo:
+
+```shell
+git clone git@github.com:SDM-2021-16-SpongeBob/video_creator.git
+```
 
 ## Maintenance plan
