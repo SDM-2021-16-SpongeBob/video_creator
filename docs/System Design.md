@@ -57,4 +57,4 @@ git clone git@github.com:SDM-2021-16-SpongeBob/video_creator.git
 
  -Verification Activities: 
 
-     Software verification is yet another vague term, but for practical purposes, let’s just say that that refers to “code review” in human language.
+     Software verification is yet another vague term, but for practical purposes, let’s just say that refers to “code review” in human language.
