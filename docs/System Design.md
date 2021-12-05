@@ -48,3 +48,5 @@ git clone git@github.com:SDM-2021-16-SpongeBob/video_creator.git
     Typically, this would include your Software Development, Risk Management, Usability and Problem Resolution processes.
 
  -Required Resources:   
+    
+     Next, talk about the technical resources you need. At the minimum, you need a compiler or a runtime (e.g. CPython 3.8). You’ll probably also have some sort of IDE software.
