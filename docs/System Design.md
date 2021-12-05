@@ -55,4 +55,6 @@ git clone git@github.com:SDM-2021-16-SpongeBob/video_creator.git
 
      Describe how you do configuration management. Wait, what’s that? That’s simply what sort of version control software you use (I’d guess it’s git), how you name versions and how you create branches / merges during development.   
 
- -Verification Activities:      
+ -Verification Activities: 
+
+     Software verification is yet another vague term, but for practical purposes, let’s just say that that refers to “code review” in human language.
