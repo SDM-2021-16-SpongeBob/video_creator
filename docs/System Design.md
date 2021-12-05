@@ -53,4 +53,6 @@ git clone git@github.com:SDM-2021-16-SpongeBob/video_creator.git
 
  -Configuration Management:
 
-     Describe how you do configuration management. Wait, what’s that? That’s simply what sort of version control software you use (I’d guess it’s git), how you name versions and how you create branches / merges during development.     
+     Describe how you do configuration management. Wait, what’s that? That’s simply what sort of version control software you use (I’d guess it’s git), how you name versions and how you create branches / merges during development.   
+
+ -Verification Activities:      
