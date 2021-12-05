@@ -43,5 +43,5 @@ git clone git@github.com:SDM-2021-16-SpongeBob/video_creator.git
 ## Maintenance plan
  Following are the content of software development plan:
 
- 1-Processes
+ #Processes
     Typically, this would include your Software Development, Risk Management, Usability and Problem Resolution processes.
