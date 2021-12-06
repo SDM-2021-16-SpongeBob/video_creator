@@ -113,7 +113,14 @@ Let’s begin our BPM with a rather simple process:
 When naming tasks, we try to adhere to the object-orientated design principle of using the [verb] + [object] pattern. We would say “acquire groceries,” for example, not “first take care of shopping for groceries.”
 Events refer to something that has already happened regardless of the process (if they are catching events) or as a result of the process (if they are throwing events). For this reason, we use the [object] and make the [verb] passive in voice, so we write “hunger noticed.” BPM does not require you to model start and end events for a process – you can leave them out, but if you model a start event, you must model an end event for each path. The same is true for end events, which require start events. We always create our models with start and end events for two reasons: first, that way it’s possible to determine the process trigger, and second, you can describe the final status of each path end. We only sometimes abandon this practice with sub-processes.
 
-## Requirements
+## Functional plan
+
+1. Add watermark to video(s) [option to choose size & position of watermark]
+2. Create gif from video(s) [option to choose size, type & start/endtime of gif]
+3. Cut video(s) in to multiple parts
+4. Export audio from video(s)
+5. Make snapshots from video(s)
+6. Multiprocessing for every feature to speed up process time
 
 
 
