@@ -142,9 +142,11 @@ Events refer to something that has already happened regardless of the process (i
 ## Implementation plan
 
 # Commands
+
 The main arguments are used in combination with the subcommand arguments
 
 required main arguments:
+
     -i, --input            absolute path to file, tip [drag & drop a file in the terminal to get the path]
                            (e.g.) --input C:\Users\Desktop\SDM-2021-16-SpongeBob/video_creator.mp4
 
