@@ -90,4 +90,14 @@ Basic Components of Business Process Modeling:
 5. Gateways: Decisions that can change the path of the process depending on conditions or events.
 6. Participants: Specifically naming the people or systems that perform the tasks or activities.
 
+How to Make a Business Process Model:
+
+1. Identify the process you want to document
+2. Gather information from process participants via interviews or observations
+3. Identify the start and end points of your process
+4. Break the process into distinct tasks and decision points
+
+
+
+
 
