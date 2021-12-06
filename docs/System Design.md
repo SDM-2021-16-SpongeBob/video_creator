@@ -187,6 +187,19 @@ optional arguments gif subcommand:
     --sway                 plays the gif forward then backward [no values needed]
                            (e.g.) --sway
 
+optional arguments watermark subcommand:
+
+    watermark              allows use of the watermark feature and the subcommands
+                           watermark <subcommands>
+
+    -p --position          position of watermark, options [top_left, top_right, bottom_left, bottom_right]
+                           (e.g.) --position top_left
+                           default = bottom_right
+
+    -m --measure           size of the watermark, options [small, medium, large]
+                           (e.g.) --measure large
+                           default = small                           
+
 
 
 
