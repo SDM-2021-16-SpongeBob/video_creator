@@ -6,8 +6,6 @@ The main goal of this program is to design a simple application for editing vide
 
 Our ultimate goal is to make a video editing software similar to Adobe Premiere Pro or Final Cut Pro.
 
-## Physical enviorement
-
 ## Architectural plan
 
 We plan to use CI (continuous integration) to automatically run test at each Commit and merge.
