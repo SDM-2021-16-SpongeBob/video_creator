@@ -209,6 +209,15 @@ optional arguments cut subcommand:
                            (e.g.) --parts 6
                            default = 2
 
+optional arguments audio subcommand:
+
+    audio                  allows use of the audio feature and the subcommands
+                           audio <subcommands>
+
+    --export               export the audio from a video [no values needed]
+                           (e.g.) --export .wav
+                           default = .wav
+
 
 
 
