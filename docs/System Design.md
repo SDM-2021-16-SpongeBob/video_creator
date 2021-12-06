@@ -167,6 +167,26 @@ optional main arguments:
                            (e.g.) --bulk
 
 
+optional arguments gif subcommand:
+
+    gif                    allows use of the gif feature and the subcommands
+                           (e.g.) gif <subcommands>
+
+    -s --start             starttime of video [give time in HH:MM:SS]
+                           (e.g.) --start 00:00:10
+                           default = 00:00:05
+
+    -e --end               endtime of video [give time in HH:MM:SS]
+                           (e.g.) --end 00:00:20
+                           default = 00:00:10
+
+    -m --measure           size of the gif, options [small, medium, large]
+                           (e.g.) -measure large
+                           default = small
+    
+    --sway                 plays the gif forward then backward [no values needed]
+                           (e.g.) --sway
+
 
 
 
