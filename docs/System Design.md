@@ -128,6 +128,16 @@ Events refer to something that has already happened regardless of the process (i
 3. Better video compression
 4. Create different video quality formats (from highest to lowest e.g 4k > 2k > 1080 > 720 > 360)
 
+- Things to watch out for*
+
+1. If two videos resolutions differ too much, it could possibly be a mismatch and it is possible that they will not combine together smoothly
+2. If the length of video is too long it potentially take a bit of time to process.
+3. If the length of a video is too long, the slider sometimes malfunctions as event.x/event.y lack float values so it is not possible to implement consistent intervals for the slider to track on if the duration of a clip is too long.
+4. Audio files generally will not work if you choose it as the original video. The program is meant to be a video editor, not an audio one.
+5. For masking, or layovers, if multiple position boxes are clicked, more than one might highlight, however the last selected position will be the one chosen.
+6. For masking, or layovers, if a position box is clicked and then a text box is clicked, the highlighting might disappear, but the last selected position will still be chosen.
+7. When applying filter, try not to start at t=0 or t=duration as it needs a wiggle room of about 1-2 seconds to operate.
+
 
 
 
