@@ -145,7 +145,7 @@ Events refer to something that has already happened regardless of the process (i
 
 ## Implementation plan
 
-# Commands
+Commands:
 
 The main arguments are used in combination with the subcommand arguments
 
