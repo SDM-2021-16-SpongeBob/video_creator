@@ -138,10 +138,12 @@ Events refer to something that has already happened regardless of the process (i
 6. For masking, or layovers, if a position box is clicked and then a text box is clicked, the highlighting might disappear, but the last selected position will still be chosen.
 7. When applying filter, try not to start at t=0 or t=duration as it needs a wiggle room of about 1-2 seconds to operate.
 
-# Dependencies
-1. Python 3.6 (or higher)
+## Requirements
+1. Python >= 3.7 (untested on lower version; if it works on <= 3.6, let me know)
 2. GStreamer 1.14.3 or higher (including the good/bad/ugly packages)
 3. Multiple Python libraries (installed by pipenv)
+4. PyQt5 $ pip install pyqt5
+
 
 ## Implementation plan
 
