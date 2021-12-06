@@ -115,12 +115,12 @@ Events refer to something that has already happened regardless of the process (i
 
 ## Functional plan
 
-1. Add watermark to video(s) [option to choose size & position of watermark]
-2. Create gif from video(s) [option to choose size, type & start/endtime of gif]
-3. Cut video(s) in to multiple parts
-4. Export audio from video(s)
-5. Make snapshots from video(s)
-6. Multiprocessing for every feature to speed up process time
+1. Add watermark to video(s) [option to choose size & position of watermark].
+2. Create gif from video(s) [option to choose size, type & start/endtime of gif].
+3. Cut video(s) in to multiple parts.
+4. Export audio from video(s).
+5. Make snapshots from video(s).
+6. Multiprocessing for every feature to speed up process time.
 
 
 
