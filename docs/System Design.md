@@ -139,6 +139,34 @@ Events refer to something that has already happened regardless of the process (i
 7. When applying filter, try not to start at t=0 or t=duration as it needs a wiggle room of about 1-2 seconds to operate.
 
 
+## Implementation plan
+
+# Commands
+The main arguments are used in combination with the subcommand arguments
+
+required main arguments:
+    -i, --input            absolute path to file, tip [drag & drop a file in the terminal to get the path]
+                           (e.g.) --input C:\Users\Desktop\Intro.mp4
+
+optional main arguments:
+    -o, --output           absolute path to folder, tip [drag & drop a folder in the terminal to get the path]
+                           (e.g.) --output C:\Users\Desktop\
+                           default = output folder within project
+
+    -h, --help             show this help message and exit
+                           (e.g.) --help
+
+    --overwrite            overwrite existing file with new file [no values needed]
+                           (e.g.) --overwrite
+
+    --fps                  set new fps for video
+                           (e.g.) --fps 30
+                           default = current fps
+     
+     -b, --bulk            manipulate multiple videos at once, requires folder directory for the --input argument
+                           (e.g.) --bulk
+
+
 
 
 
