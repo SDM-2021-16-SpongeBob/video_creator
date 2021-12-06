@@ -150,6 +150,7 @@ required main arguments:
     -i, --input            absolute path to file, tip [drag & drop a file in the terminal to get the path]
                            (e.g.) --input C:\Users\Desktop\SDM-2021-16-SpongeBob/video_creator.mp4
 
+
 optional main arguments:
 
     -o, --output           absolute path to folder, tip [drag & drop a folder in the terminal to get the path]
@@ -168,6 +169,7 @@ optional main arguments:
      
      -b, --bulk            manipulate multiple videos at once, requires folder directory for the --input argument
                            (e.g.) --bulk
+
 
 
 optional arguments gif subcommand:
@@ -190,6 +192,7 @@ optional arguments gif subcommand:
     --sway                 plays the gif forward then backward [no values needed]
                            (e.g.) --sway
 
+
 optional arguments watermark subcommand:
 
     watermark              allows use of the watermark feature and the subcommands
@@ -203,6 +206,7 @@ optional arguments watermark subcommand:
                            (e.g.) --measure large
                            default = small                           
 
+
 optional arguments cut subcommand:
 
     cut                    allows use of the cut feature and the subcommands
@@ -212,6 +216,7 @@ optional arguments cut subcommand:
                            (e.g.) --parts 6
                            default = 2
 
+
 optional arguments audio subcommand:
 
     audio                  allows use of the audio feature and the subcommands
@@ -220,6 +225,7 @@ optional arguments audio subcommand:
     --export               export the audio from a video [no values needed]
                            (e.g.) --export .wav
                            default = .wav
+
 
 optional arguments snapshot subcommand:
 
