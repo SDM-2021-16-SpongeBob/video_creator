@@ -247,5 +247,11 @@ Functional black-box tests that ensure the config file and API is working correc
 
 pytest
 
+A few useful pytest options:
 
+To see the output, add -s.
+To see the name of each test being run, add -v.
+To run only failing tests, add --lf.
+To filter to tests that match a string: -k <string_to_match>
+All tests should pass.
 
