@@ -65,17 +65,18 @@ When I started my deep learning journey, one of the first things I learned was i
 and I was completely immersed in it! But I have a curious mind and once I had a handle on image classification, I wondered if I could transfer that learning to videos.
 Was there a way to build a model that automatically identified specific people in a given video at a particular time interval? Turns out, there was and I’m excited to share my approach with you!
 
-For example: We have a different image(e.g shark) on each page of the book, and as we flip these pages, we get an animation of a shark dancing. You could even call it a kind of video. The visualization gets better the faster we flip the pages. In other words, this visual is a collection of different images arranged in a particular order.
+- For example: 
+We have a different image(e.g shark) on each page of the book, and as we flip these pages, we get an animation of a shark dancing. You could even call it a kind of video. The visualization gets better the faster we flip the pages. In other words, this visual is a collection of different images arranged in a particular order.
 
 Similarly, videos are nothing but a collection of a set of images. These images are called frames and can be combined to get the original video. So, a problem related to video data is not that different from an image classification or an object detection problem. There is just one extra step of extracting frames from the video.
 
-Let me first summarize the steps we will follow in this:
+- Let me first summarize the steps we will follow in this:
 
-Import and read the video, extract frames from it, and save them as images.
-Label a few images for training the model.
-Build our model on training data.
-Make predictions for the remaining images.
-Calculate the screen time of both. 
+1. Import and read the video, extract frames from it, and save them as images.
+2. Label a few images for training the model.
+3. Build our model on training data.
+4. Make predictions for the remaining images.
+5. Calculate the screen time of both. 
 
 ## Business process model
 
