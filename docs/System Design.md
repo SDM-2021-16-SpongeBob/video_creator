@@ -200,6 +200,15 @@ optional arguments watermark subcommand:
                            (e.g.) --measure large
                            default = small                           
 
+optional arguments cut subcommand:
+
+    cut                    allows use of the cut feature and the subcommands
+                           cut <subcommands>
+
+    -p --parts             The amount of video parts you want to cut the video in
+                           (e.g.) --parts 6
+                           default = 2
+
 
 
 
