@@ -58,3 +58,7 @@ git clone git@github.com:SDM-2021-16-SpongeBob/video_creator.git
  -Verification Activities: 
 
      Software verification is yet another vague term, but for practical purposes, let’s just say that that refers to “code review” in human language.
+
+## Project plan
+ When I started my deep learning journey, one of the first things I learned was image classification. It’s such a fascinating part of the computer vision fraternity 
+ and I was completely immersed in it! But I have a curious mind and once I had a handle on image classification, I wondered if I could transfer that learning to videos.
