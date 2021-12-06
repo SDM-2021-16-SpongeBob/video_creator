@@ -76,3 +76,6 @@ Label a few images for training the model.
 Build our model on training data.
 Make predictions for the remaining images.
 Calculate the screen time of both. 
+
+## Business process model
+
