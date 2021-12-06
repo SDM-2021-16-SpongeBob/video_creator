@@ -6,7 +6,7 @@ The main goal of this program is to design a simple application for editing vide
 
 Our ultimate goal is to make a video editing software similar to Adobe Premiere Pro or Final Cut Pro.
 
-## Project plan
+
 
 ## Business process model
 
