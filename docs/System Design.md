@@ -235,7 +235,17 @@ optional arguments snapshot subcommand:
 
 Functional black-box tests that ensure the config file and API is working correctly. To run them:
 
-pytest
+1. $ python player.py
+2. Click Open Video or Ctrl+O
+3. Select up to three videos
+4. Click play button on the bottom left, or use space to play/pause the video
+5. Drag the slider to move throughout the video
+6. To show selected videos only:
+    - Go to the sidebar
+    - Uncheck the videos that won't be displayed.
+    - Click Display selected or Ctrl+D to confirm your choices
+
+- pytest
 
 A few useful pytest options:
 
@@ -244,5 +254,5 @@ A few useful pytest options:
 3. To run only failing tests, add --lf.
 4. To filter to tests that match a string: -k <string_to_match>
 
-All tests should pass.
+- All tests should pass.
 
