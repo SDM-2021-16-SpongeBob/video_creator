@@ -151,6 +151,7 @@ required main arguments:
                            (e.g.) --input C:\Users\Desktop\SDM-2021-16-SpongeBob/video_creator.mp4
 
 optional main arguments:
+
     -o, --output           absolute path to folder, tip [drag & drop a folder in the terminal to get the path]
                            (e.g.) --output C:\Users\Desktop\SDM-2021-16-SpongeBob/video_creator
                            default = output folder within project
