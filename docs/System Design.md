@@ -122,6 +122,12 @@ Events refer to something that has already happened regardless of the process (i
 5. Make snapshots from video(s).
 6. Multiprocessing for every feature to speed up process time.
 
+- Future functionalities:
+1. A lot...
+2. Error handling for bulk manipulation (if one fails, keep going and create log for the ones that didn't finish)
+3. Better video compression
+4. Create different video quality formats (from highest to lowest e.g 4k > 2k > 1080 > 720 > 360)
+
 
 
 
