@@ -97,6 +97,15 @@ How to Make a Business Process Model:
 3. Identify the start and end points of your process
 4. Break the process into distinct tasks and decision points
 
+Explaination:
+
+To present a business process model, some people like to play a slideshow on projector and explain it with the help of a laser pen. 
+Others may like to open up diagrams directly in Visual Paradigm and walk (scroll) through the diagram manually with the mouse pointer. 
+Either way, it comes with a bit of rigidity.
+
+Whether you are reading a business process diagram in Visual Paradigm, slideshow, handout or from projector, you are actually studying something dynamic from static image. The process is not running in the image itself, but in your brain. For this reason, it can be limited to how much you can learn from these static representation of workflows. Moreover, you may easily miss out possible process flows for complex processes or processes that involve many conditional flows.
+
+
 
 
 
