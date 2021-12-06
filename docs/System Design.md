@@ -146,11 +146,11 @@ The main arguments are used in combination with the subcommand arguments
 
 required main arguments:
     -i, --input            absolute path to file, tip [drag & drop a file in the terminal to get the path]
-                           (e.g.) --input C:\Users\Desktop\Intro.mp4
+                           (e.g.) --input C:\Users\Desktop\SDM-2021-16-SpongeBob/video_creator.mp4
 
 optional main arguments:
     -o, --output           absolute path to folder, tip [drag & drop a folder in the terminal to get the path]
-                           (e.g.) --output C:\Users\Desktop\
+                           (e.g.) --output C:\Users\Desktop\SDM-2021-16-SpongeBob/video_creator
                            default = output folder within project
 
     -h, --help             show this help message and exit
