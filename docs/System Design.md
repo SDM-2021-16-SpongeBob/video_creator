@@ -79,3 +79,15 @@ Calculate the screen time of both.
 
 ## Business process model
 
+Business process maodeling is a way to visualize what a business does by taking into account roles, responsibilities and standards. Business process modeling (BPM) takes this one step further by providing a visual way to understand, analyze, and improve upon a current method of working. Business process modeling is more about in-depth analysis and optimizing inefficiencies and bottlenecks.
+
+Basic Components of Business Process Modeling:
+
+1. Process:  The overall workflow from a starting point to its successful completion.
+2. Tasks or Activities: Something performed by a person or a system.
+3. Flows: This is indicated on the process map by connecting lines and arrows.
+4. Events: These are triggers that cause a process to begin, end, or may redirect a process to a different path.
+5. Gateways: Decisions that can change the path of the process depending on conditions or events.
+6. Participants: Specifically naming the people or systems that perform the tasks or activities.
+
+
