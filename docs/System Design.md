@@ -233,8 +233,6 @@ optional arguments snapshot subcommand:
 
 ## Testing plan
 
-Functional black-box tests that ensure the config file and API is working correctly. To run them:
-
 1. $ python player.py
 2. Click Open Video or Ctrl+O
 3. Select up to three videos
@@ -244,6 +242,8 @@ Functional black-box tests that ensure the config file and API is working correc
     - Go to the sidebar
     - Uncheck the videos that won't be displayed.
     - Click Display selected or Ctrl+D to confirm your choices
+
+Functional black-box tests that ensure the config file and API is working correctly. To run them:
 
 - pytest
 
