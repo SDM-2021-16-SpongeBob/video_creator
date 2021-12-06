@@ -245,3 +245,7 @@ optional arguments snapshot subcommand:
 
 Functional black-box tests that ensure the config file and API is working correctly. To run them:
 
+pytest
+
+
+
