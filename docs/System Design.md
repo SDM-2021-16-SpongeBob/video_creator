@@ -218,6 +218,15 @@ optional arguments audio subcommand:
                            (e.g.) --export .wav
                            default = .wav
 
+optional arguments snapshot subcommand:
+
+    snapshot               allows use of the snapshot feature and the subcommands
+                           snapshot <subcommands>
+
+    --interval             the interval in seconds when you want to make snaphots from the video
+                           (e.g.) --interval 10
+                           default = 1
+
 
 
 
