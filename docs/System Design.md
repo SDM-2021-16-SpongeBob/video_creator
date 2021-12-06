@@ -81,7 +81,7 @@ Calculate the screen time of both.
 
 Business process maodeling is a way to visualize what a business does by taking into account roles, responsibilities and standards. Business process modeling (BPM) takes this one step further by providing a visual way to understand, analyze, and improve upon a current method of working. Business process modeling is more about in-depth analysis and optimizing inefficiencies and bottlenecks.
 
-Basic Components of Business Process Modeling:
+- Basic Components of Business Process Modeling:
 
 1. Process:  The overall workflow from a starting point to its successful completion.
 2. Tasks or Activities: Something performed by a person or a system.
@@ -90,14 +90,14 @@ Basic Components of Business Process Modeling:
 5. Gateways: Decisions that can change the path of the process depending on conditions or events.
 6. Participants: Specifically naming the people or systems that perform the tasks or activities.
 
-How to Make a Business Process Model:
+- How to Make a Business Process Model:
 
 1. Identify the process you want to document
 2. Gather information from process participants via interviews or observations
 3. Identify the start and end points of your process
 4. Break the process into distinct tasks and decision points
 
-Explaination:
+- Explaination:
 
 To present a business process model, some people like to play a slideshow on projector and explain it with the help of a laser pen. 
 Others may like to open up diagrams directly in Visual Paradigm and walk (scroll) through the diagram manually with the mouse pointer. 
@@ -105,8 +105,12 @@ Either way, it comes with a bit of rigidity.
 
 Whether you are reading a business process diagram in Visual Paradigm, slideshow, handout or from projector, you are actually studying something dynamic from static image. The process is not running in the image itself, but in your brain. For this reason, it can be limited to how much you can learn from these static representation of workflows. Moreover, you may easily miss out possible process flows for complex processes or processes that involve many conditional flows.
 
+- For Example:
 
+Let’s begin our BPM with a rather simple process:
 
+When naming tasks, we try to adhere to the object-orientated design principle of using the [verb] + [object] pattern. We would say “acquire groceries,” for example, not “first take care of shopping for groceries.”
+Events refer to something that has already happened regardless of the process (if they are catching events) or as a result of the process (if they are throwing events). For this reason, we use the [object] and make the [verb] passive in voice, so we write “hunger noticed.” BPM does not require you to model start and end events for a process – you can leave them out, but if you model a start event, you must model an end event for each path. The same is true for end events, which require start events. We always create our models with start and end events for two reasons: first, that way it’s possible to determine the process trigger, and second, you can describe the final status of each path end. We only sometimes abandon this practice with sub-processes.
 
 
 
