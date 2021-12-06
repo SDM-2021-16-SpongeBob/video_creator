@@ -249,9 +249,10 @@ pytest
 
 A few useful pytest options:
 
-To see the output, add -s.
-To see the name of each test being run, add -v.
-To run only failing tests, add --lf.
-To filter to tests that match a string: -k <string_to_match>
+1. To see the output, add -s.
+2. To see the name of each test being run, add -v.
+3. To run only failing tests, add --lf.
+4. To filter to tests that match a string: -k <string_to_match>
+
 All tests should pass.
 
